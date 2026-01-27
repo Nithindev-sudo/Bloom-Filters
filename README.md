@@ -36,14 +36,18 @@ They are commonly used in:
 ➡️ Distributed systems.
 
 
-📊 Base Data Structure for a Bloom Filter is mainly a Bit Vector/a Bit Array (or BitSet)
+📊 Base Data Structure for a Bloom Filter is mainly a Bit Vector/a Bit Array (or BitSet).
+
 🧠 Bit arrays use only 1 bit per entry, offering massive memory savings compared to storing actual elements in a hash table.
+
 
 ⚛️ How a Bloom Filter Works
 
 A Bloom filter consists of:
-A bit array of size **M**
-**K** independent hash functions
+
+A bit array of size **M** .
+
+**K** independent hash functions.
 
 
 Networking
