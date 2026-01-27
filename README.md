@@ -7,9 +7,11 @@ A Bloom Filter is a space-efficient probabilistic data structure used to test wh
 
 There is also another aspect to consider about bloom filters which is,
 It can tell you:
+
 ✅ if possibly in the set/ possibly not in the set
 
 But it cannot provide: 
+
 ❌ Definitely not in the set/ Definetely in the set
 
 ❗The trade-off for speed and memory efficiency is that false positives are possible, but false negatives are not.
@@ -20,13 +22,17 @@ But it cannot provide:
 Bloom filters are used when:
 
 ➡️ You need very fast membership checks without scanning of entire Databases.
+
 ➡️ Memory usage must be minimal.
+
 ➡️ Occasional false positives are acceptable.
 
 They are commonly used in:
 
 ➡️ Databases.
+
 ➡️ Caches.
+
 ➡️ Distributed systems.
 
 
