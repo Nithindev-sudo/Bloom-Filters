@@ -61,7 +61,7 @@ Both inserting elements and querying membership are (O(**k**)) operations, where
 
    The hash functions used in a Bloom filter should be independent and uniformly distributed(outputs the same hash value when same input is provided any number of times this reduces false positives). They should     also be as fast as possible (cryptographic hashes such as sha1, is not very good choices).
 
-   Best hash functions that can be used for bloom filters are mur
+   Best hash functions that can be used for bloom filters are murmur
 
 
 
